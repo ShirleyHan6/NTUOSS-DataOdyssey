@@ -86,7 +86,7 @@ See [NTUOSS-PandasBasics](https://github.com/wilsonteng97/NTUOSS-PandasBasics) f
 > The sigmoid value of X, which is computed by the f_pred function, is the value of y predicted by the model. 
 ![alt text](https://github.com/ShirleyHan6/NTUOSS-DataOdyssey/blob/master/images/code/supervised/log_reg1.png)
 <!-- blank line -->
-## Logistic regression/classification predictive function
+Logistic regression predictive function
 ![alt text](https://github.com/ShirleyHan6/NTUOSS-DataOdyssey/blob/master/images/code/supervised/log_reg_eqn.png)
 <!-- blank line -->
 > Make a LogisticRegression object <br>
@@ -131,7 +131,7 @@ Read the image
 ## Data Visualization <a name="viz2"></a>
 > Reshape X_recovered to have the same dimension as the original image<br>
 > Now we can plot the original and the compressed image side by side. 
-![alt text](https://github.com/ShirleyHan6/NTUOSS-DataOdyssey/blob/master/images/code/unsupervised/viz2.png)
+![alt text](https://github.com/ShirleyHan6/NTUOSS-DataOdyssey/blob/master/images/code/viz/viz2.png)
 <!-- blank line -->
 ---
 ## End of Odyssey!<a name="end"></a>
