@@ -50,11 +50,9 @@ See [NTUOSS-PandasBasics](https://github.com/wilsonteng97/NTUOSS-PandasBasics)fo
 
 <!-- blank line -->
 <figure class="video_container">
-  [<iframe
-  src="https://carbon.now.sh/embedKZQIKtMGvr4IunjQuUfV"
-  style="transform:scale(0.7); width:1024px; height:473px; border:0; overflow:hidden;"
-  sandbox="allow-scripts allow-same-origin">
-</iframe>]
+<iframe
+  src="https://carbon.now.sh/embedKZQIKtMGvr4IunjQuUfV">
+</iframe>
 </figure>
 <!-- blank line -->
 
