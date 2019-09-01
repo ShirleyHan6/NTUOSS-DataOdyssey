@@ -49,7 +49,7 @@ See [NTUOSS-PandasBasics](https://github.com/wilsonteng97/NTUOSS-PandasBasics)fo
 ###  Packing up: Environment Setup <a name="prep"></a>
 
 <!-- blank line -->
-![alt text]()
+![alt text](https://github.com/ShirleyHan6/NTUOSS-DataOdyssey/blob/master/images/logo.jpeg)
 <!-- blank line -->
 
 
