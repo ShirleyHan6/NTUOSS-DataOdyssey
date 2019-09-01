@@ -51,9 +51,12 @@ See [NTUOSS-PandasBasics](https://github.com/wilsonteng97/NTUOSS-PandasBasics)fo
 
 ##  Supervised Odyssey: Supervised Classification <a name="supervised"></a>
 ###  Packing up: Environment Setup <a name="prep"></a>
-# NTUOSS-DataOdyssey
+Install machine learning and plotting packages
 <!-- blank line -->
 ![alt text](https://github.com/ShirleyHan6/NTUOSS-DataOdyssey/blob/master/images/code/environment_setup/install_package.png)
+<!-- blank line -->
+Import packages
+<!-- blank line -->
 ![alt text](https://github.com/ShirleyHan6/NTUOSS-DataOdyssey/blob/master/images/code/environment_setup/import_libs.png)
 <!-- blank line -->
 
