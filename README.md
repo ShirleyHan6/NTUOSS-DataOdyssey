@@ -51,7 +51,7 @@ See [NTUOSS-PandasBasics](https://github.com/wilsonteng97/NTUOSS-PandasBasics) f
       + [Coding with sklearn](#coding2)
     * [Result Visualization](#viz2)
 3. [End of journey](#end)
-
+---
 ##  Supervised Odyssey: Supervised Classification <a name="supervised"></a>
 ###  Packing up: Environment Setup <a name="prep"></a>
 
@@ -59,11 +59,11 @@ See [NTUOSS-PandasBasics](https://github.com/wilsonteng97/NTUOSS-PandasBasics) f
 <!-- blank line -->
 ![alt text](https://github.com/ShirleyHan6/NTUOSS-DataOdyssey/blob/master/images/code/environment_setup/install_package.png)
 <!-- blank line -->
-
 > Import the module for linear regression algorithm from sklearn and plotting packages
 <!-- blank line -->
 ![alt text](https://github.com/ShirleyHan6/NTUOSS-DataOdyssey/blob/master/images/code/environment_setup/import_libs.png)
 <!-- blank line -->
+---
 ### Data Exploration
 > Use numpy to load the file as a data object
 ![alt text](https://github.com/ShirleyHan6/NTUOSS-DataOdyssey/blob/master/images/code/supervised/load_data.png)
@@ -76,10 +76,12 @@ See [NTUOSS-PandasBasics](https://github.com/wilsonteng97/NTUOSS-PandasBasics) f
 <!-- blank line -->
 ![alt text](https://github.com/ShirleyHan6/NTUOSS-DataOdyssey/blob/master/images/code/viz/explore1.png)
 <!-- blank line -->
+---
 ## Data Classification: Logistic Regression <a name="logreg"></a>
 ### Algorithm Intuition ([online demo](https://www.desmos.com/calculator/naf1qogfjn))<a name="intuition1"></a>
 ![alt text](https://github.com/ShirleyHan6/NTUOSS-DataOdyssey/blob/master/images/logreg.png)
 <!-- blank line -->
+---
 ### Coding with sklearn <a name="coding1"></a>
 > The sigmoid value of X, which is computed by the f_pred function, is the value of y predicted by the model. 
 ![alt text](https://github.com/ShirleyHan6/NTUOSS-DataOdyssey/blob/master/images/code/supervised/log_reg1.png)
@@ -92,12 +94,15 @@ See [NTUOSS-PandasBasics](https://github.com/wilsonteng97/NTUOSS-PandasBasics) f
 > Get the parameters for plotting the data, W_0, W_1 and W_2 <br>
 ![alt text](https://github.com/ShirleyHan6/NTUOSS-DataOdyssey/blob/master/images/code/supervised/log_reg2.png)
 <!-- blank line -->
+---
+## Result Visualization <a name="viz1"></a>
 > After obtaining the parameters, lets visualize the result by plotting the decision boundary. <br>
 Students whose score points are above the decision boundary will be admitted while the students below the decision boundary will be rejected
 ![alt text](https://github.com/ShirleyHan6/NTUOSS-DataOdyssey/blob/master/images/code/supervised/viz1.png)
 <!-- blank line -->
 > Now let's use our trained logistic regression model to predict if a student will be accepted or rejected.
 ![alt text](https://github.com/ShirleyHan6/NTUOSS-DataOdyssey/blob/master/images/code/supervised/predict1.png)
+---
 <!-- blank line -->
 ## Unsupervided Odyssey: Unsupervised Classification <a name="unsupervised"></a>
 > Install Pillow, which is used with matplotlib to read images in jpep format
@@ -106,24 +111,29 @@ Students whose score points are above the decision boundary will be admitted whi
 > Import the image reading module from matplotlib and the K-Means module from sklearn
 ![alt text](https://github.com/ShirleyHan6/NTUOSS-DataOdyssey/blob/master/images/code/unsupervised/import_libs2.png)
 <!-- blank line -->
+---
 ## Data Exploration <a name="explore2"></a>
 # Read the image
 ![alt text](https://github.com/ShirleyHan6/NTUOSS-DataOdyssey/blob/master/images/code/unsupervised/read_reshape_img.png)
 <!-- blank line -->
+---
 ## Image Compression: K-Means <a name="k_means"></a>
 ### Algorithm Intuition ([Online Demo](http://alekseynp.com/viz/k-means.html))<a name="intuition2"></a>
 ![alt text](https://github.com/ShirleyHan6/NTUOSS-DataOdyssey/blob/master/images/k_means.png)
 <!-- blank line -->
+---
 ### Coding with sklearn <a name="coding2"></a>
 > Reshape the image to be 2-dimension, then run the KMeans algorithm with the number of clusters equal to 20. 
 >Fit the model to the data, then use the centroids to compress the image
 ![alt text](https://github.com/ShirleyHan6/NTUOSS-DataOdyssey/blob/master/images/code/unsupervised/k_means_cluster.png)
 <!-- blank line -->
+---
 ## Data Visualization <a name="viz2"></a>
 > Reshape X_recovered to have the same dimension as the original image<br>
 > Now we can plot the original and the compressed image side by side. 
 ![alt text](https://github.com/ShirleyHan6/NTUOSS-DataOdyssey/blob/master/images/code/unsupervised/viz2.png)
 <!-- blank line -->
+---
 ## End of Odyssey!<a name="end"></a>
 <!-- blank line -->
 ![alt text](https://github.com/ShirleyHan6/NTUOSS-DataOdyssey/blob/master/images/ai_ml_dl.png)
