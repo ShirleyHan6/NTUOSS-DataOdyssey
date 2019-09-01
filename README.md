@@ -110,6 +110,5 @@ Now we can plot the original and the compressed image side by side.
 ![alt text]()
 ## End of Odyssey!<a name="end"></a>
 ![alt text]()
-![alt text]()
-![alt text]()
-![alt text]()
+
+
