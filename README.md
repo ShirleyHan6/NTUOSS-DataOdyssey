@@ -1,4 +1,8 @@
 # NTUOSS-DataOdyssey
+<!-- blank line -->
+![alt text](https://github.com/ShirleyHan6/NTUOSS-DataOdyssey/blob/master/images/logo.jpeg)
+<!-- blank line -->
+
 Repository for workshop on Practical Machine Learning. <br>
 This is the second workshop of NTUOSS Data Science Workshop Series for AY19/20
 _by [Han Simeng](https://github.com/ShirleyHan6) for [NTU Open Source Society](https://github.com/ntuoss)_
@@ -47,9 +51,9 @@ See [NTUOSS-PandasBasics](https://github.com/wilsonteng97/NTUOSS-PandasBasics)fo
 
 ##  Supervised Odyssey: Supervised Classification <a name="supervised"></a>
 ###  Packing up: Environment Setup <a name="prep"></a>
-
+# NTUOSS-DataOdyssey
 <!-- blank line -->
-![alt text](https://github.com/ShirleyHan6/NTUOSS-DataOdyssey/blob/master/images/logo.jpeg)
+![alt text](https://github.com/ShirleyHan6/NTUOSS-DataOdyssey/blob/master/images/code/environment_setup/install_package.png)
+![alt text](https://github.com/ShirleyHan6/NTUOSS-DataOdyssey/blob/master/images/code/environment_setup/import_libs.png)
 <!-- blank line -->
-
 
