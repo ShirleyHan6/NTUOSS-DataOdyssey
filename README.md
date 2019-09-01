@@ -25,7 +25,7 @@ For errors, typos or suggestions, please do not hesitate to [post an issue](http
 ### Introduction
 
 Data science is highly regarded as one of the most important skills to learn. But what is data science even about, and how do you utilize it? For the next three weeks, NTU Open Source Society will be hosting 3 workshops designed to introduce the concept from a novice level to how companies use data science in the real world.<br>
-
+![alt text](https://github.com/ShirleyHan6/NTUOSS-DataOdyssey/blob/master/images/scikit_learn.png)
 The second workshop will introduce two machine learning algorithms in order to demonstrate how the field can be used in real-world scenarios. <br>
 This includes logistic regression, a supervised method to solve classification problems, as well as k-means clustering, an unsupervised method to group together clusters of data by certain criteria.<br>
 We will use [scikit-learn](https://scikit-learn.org/stable/index.html), a python package built for implement machine learning algorithms. <br>
@@ -62,53 +62,52 @@ Import the module for linear regression algorithm from sklearn and plotting pack
 <!-- blank line -->
 ![alt text](https://github.com/ShirleyHan6/NTUOSS-DataOdyssey/blob/master/images/code/environment_setup/import_libs.png)
 <!-- blank line -->
-
 ### Data Exploration
 Use numpy to load the file as a data object
 ![alt text](https://github.com/ShirleyHan6/NTUOSS-DataOdyssey/blob/master/images/code/supervised/load_data.png)
 Inspect more details
-![alt text]()
+![alt text](https://github.com/ShirleyHan6/NTUOSS-DataOdyssey/blob/master/images/code/supervised/more_details.png)
 Plot all data
-![alt text]()
+![alt text](https://github.com/ShirleyHan6/NTUOSS-DataOdyssey/blob/master/images/code/supervised/plot.png)
+![alt text](https://github.com/ShirleyHan6/NTUOSS-DataOdyssey/blob/master/images/code/viz/explore1.png)
 ## Data Classification: Logistic Regression <a name="logreg"></a>
 ### Algorithm Intuition ([online demo](https://www.desmos.com/calculator/naf1qogfjn))<a name="intuition1"></a>
-![alt text]()
+![alt text](https://github.com/ShirleyHan6/NTUOSS-DataOdyssey/blob/master/images/logreg.png)
 ### Coding with sklearn <a name="coding1"></a>
 The sigmoid value of X, which is computed by the f_pred function, is the value of y predicted by the model. 
-![alt text]()
+![alt text](https://github.com/ShirleyHan6/NTUOSS-DataOdyssey/blob/master/images/code/supervised/log_reg1.png)
 ## Logistic regression/classification predictive function 
-![alt text]()
+![alt text](![alt text](https://github.com/ShirleyHan6/NTUOSS-DataOdyssey/blob/master/images/code/supervised/log_reg_eqn.png)
+)
 Make a LogisticRegression object <br>
 Fit the data to the model <br>
 Get the parameters for plotting the data, W_0, W_1 and W_2 <br>
-![alt text]()
+![alt text](https://github.com/ShirleyHan6/NTUOSS-DataOdyssey/blob/master/images/code/supervised/log_reg2.png)
 After obtaining the parameters, lets visualize the result by plotting the decision boundary. <br>
 Students whose score points are above the decision boundary will be admitted while the students below the decision boundary will be rejected
-![alt text]()
+![alt text](https://github.com/ShirleyHan6/NTUOSS-DataOdyssey/blob/master/images/code/supervised/viz1.png)
 Now let's use our trained logistic regression model to predict if a student will be accepted or rejected.
-![alt text]()
+![alt text](https://github.com/ShirleyHan6/NTUOSS-DataOdyssey/blob/master/images/code/supervised/predict1.png)
 ## Unsupervided Odyssey: Unsupervised Classification <a name="unsupervised"></a>
 Install Pillow, which is used with matplotlib to read images in jpep format
-![alt text]()
+![alt text](https://github.com/ShirleyHan6/NTUOSS-DataOdyssey/blob/master/images/code/unsupervised/install_libs2.png)
 Import the image reading module from matplotlib and the K-Means module from sklearn
-![alt text]()
+![alt text](https://github.com/ShirleyHan6/NTUOSS-DataOdyssey/blob/master/images/code/unsupervised/import_libs2.png)
 ## Data Exploration <a name="explore2"></a>
 # Read the image
-![alt text]()
+![alt text](https://github.com/ShirleyHan6/NTUOSS-DataOdyssey/blob/master/images/code/unsupervised/read_reshape_img.png)
 ## Image Compression: K-Means <a name="k_means"></a>
 ### Algorithm Intuition ([Online Demo](http://alekseynp.com/viz/k-means.html))<a name="intuition2"></a>
-![alt text]()
+![alt text](https://github.com/ShirleyHan6/NTUOSS-DataOdyssey/blob/master/images/k_means.png)
 ### Coding with sklearn <a name="coding2"></a>
 Reshape the image to be 2-dimension, then run the KMeans algorithm with the number of clusters equal to 20. 
-Fit the model to the data
-![alt text]()
-Use the centroids to compress the image
-![alt text]()
+Fit the model to the data, then use the centroids to compress the image
+![alt text](https://github.com/ShirleyHan6/NTUOSS-DataOdyssey/blob/master/images/code/unsupervised/k_means_cluster.png)
 ## Data Visualization <a name="viz2"></a>
-First reshape X_recovered to have the same dimension as the original image<br>
+Reshape X_recovered to have the same dimension as the original image<br>
 Now we can plot the original and the compressed image side by side. 
-![alt text]()
+![alt text](https://github.com/ShirleyHan6/NTUOSS-DataOdyssey/blob/master/images/code/unsupervised/viz2.png)
 ## End of Odyssey!<a name="end"></a>
-![alt text]()
+![alt text](https://github.com/ShirleyHan6/NTUOSS-DataOdyssey/blob/master/images/ai_ml_dl.png)
 
 
