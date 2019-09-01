@@ -33,7 +33,7 @@ We will use [scikit-learn](https://scikit-learn.org/stable/index.html), a python
 [K-Means with scikit-learn](https://scikit-learn.org/stable/modules/generated/sklearn.cluster.KMeans.html)<br>
 
 ### Google Colabtory
-See [NTUOSS-PandasBasics](https://github.com/wilsonteng97/NTUOSS-PandasBasics)for a comprehensive introduction on how to use Google Colabtory for data science projects and let's walk through it. <br>
+See [NTUOSS-PandasBasics](https://github.com/wilsonteng97/NTUOSS-PandasBasics) for a comprehensive introduction on how to use Google Colabtory for data science projects and let's walk through it. <br>
 
 ### Odyssey Begins
 ![title](images/ml_types.jpg)
@@ -78,17 +78,37 @@ The sigmoid value of X, which is computed by the f_pred function, is the value o
 ![alt text]()
 ## Logistic regression/classification predictive function 
 ![alt text]()
+Make a LogisticRegression object <br>
+Fit the data to the model <br>
+Get the parameters for plotting the data, W_0, W_1 and W_2 <br>
 ![alt text]()
+After obtaining the parameters, lets visualize the result by plotting the decision boundary. <br>
+Students whose score points are above the decision boundary will be admitted while the students below the decision boundary will be rejected
 ![alt text]()
+Now let's use our trained logistic regression model to predict if a student will be accepted or rejected.
 ![alt text]()
+## Unsupervided Odyssey: Unsupervised Classification <a name="unsupervised"></a>
+Install Pillow, which is used with matplotlib to read images in jpep format
 ![alt text]()
+Import the image reading module from matplotlib and the K-Means module from sklearn
 ![alt text]()
+## Data Exploration <a name="explore2"></a>
+# Read the image
 ![alt text]()
+## Image Compression: K-Means <a name="k_means"></a>
+### Algorithm Intuition ([Online Demo](http://alekseynp.com/viz/k-means.html))<a name="intuition2"></a>
 ![alt text]()
+### Coding with sklearn <a name="coding2"></a>
+Reshape the image to be 2-dimension, then run the KMeans algorithm with the number of clusters equal to 20. 
+Fit the model to the data
 ![alt text]()
+Use the centroids to compress the image
 ![alt text]()
+## Data Visualization <a name="viz2"></a>
+First reshape X_recovered to have the same dimension as the original image<br>
+Now we can plot the original and the compressed image side by side. 
 ![alt text]()
-![alt text]()
+## End of Odyssey!<a name="end"></a>
 ![alt text]()
 ![alt text]()
 ![alt text]()
