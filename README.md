@@ -64,7 +64,7 @@ See [NTUOSS-PandasBasics](https://github.com/wilsonteng97/NTUOSS-PandasBasics) f
 ![alt text](https://github.com/ShirleyHan6/NTUOSS-DataOdyssey/blob/master/images/code/environment_setup/import_libs.png)
 <!-- blank line -->
 ---
-### Data Exploration
+## Data Exploration <a name="explore2"></a>
 > Use numpy to load the file as a data object
 ![alt text](https://github.com/ShirleyHan6/NTUOSS-DataOdyssey/blob/master/images/code/supervised/load_data.png)
 <!-- blank line -->
