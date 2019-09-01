@@ -113,7 +113,7 @@ Students whose score points are above the decision boundary will be admitted whi
 <!-- blank line -->
 ---
 ## Data Exploration <a name="explore2"></a>
-# Read the image
+Read the image
 ![alt text](https://github.com/ShirleyHan6/NTUOSS-DataOdyssey/blob/master/images/code/unsupervised/read_reshape_img.png)
 <!-- blank line -->
 ---
