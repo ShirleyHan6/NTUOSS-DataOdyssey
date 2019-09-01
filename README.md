@@ -1,7 +1,7 @@
 # NTUOSS-DataOdyssey
 Repository for workshop on Practical Machine Learning. <br>
 This is the second workshop of NTUOSS Data Science Workshop Series for AY19/20
-_by[Han Simeng](https://github.com/ShirleyHan6) for [NTU Open Source Society](https://github.com/ntuoss)_
+_by [Han Simeng](https://github.com/ShirleyHan6) for [NTU Open Source Society](https://github.com/ntuoss)_
 
 ### Workshop Details
 
@@ -49,7 +49,7 @@ See [NTUOSS-PandasBasics](https://github.com/wilsonteng97/NTUOSS-PandasBasics)fo
 ###  Packing up: Environment Setup <a name="prep"></a>
 
 <!-- blank line -->
-![alt text](https://carbon.now.sh/KZQIKtMGvr4IunjQuUfV)
+![alt text]()
 <!-- blank line -->
 
 
