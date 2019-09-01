@@ -49,11 +49,7 @@ See [NTUOSS-PandasBasics](https://github.com/wilsonteng97/NTUOSS-PandasBasics)fo
 ###  Packing up: Environment Setup <a name="prep"></a>
 
 <!-- blank line -->
-<figure class="video_container">
-<iframe
-  src="https://carbon.now.sh/embedKZQIKtMGvr4IunjQuUfV">
-</iframe>
-</figure>
+![alt text](https://carbon.now.sh/KZQIKtMGvr4IunjQuUfV)
 <!-- blank line -->
 
 
