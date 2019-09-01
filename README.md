@@ -77,8 +77,7 @@ Plot all data
 The sigmoid value of X, which is computed by the f_pred function, is the value of y predicted by the model. 
 ![alt text](https://github.com/ShirleyHan6/NTUOSS-DataOdyssey/blob/master/images/code/supervised/log_reg1.png)
 ## Logistic regression/classification predictive function 
-![alt text](![alt text](https://github.com/ShirleyHan6/NTUOSS-DataOdyssey/blob/master/images/code/supervised/log_reg_eqn.png)
-)
+![alt text](https://github.com/ShirleyHan6/NTUOSS-DataOdyssey/blob/master/images/code/supervised/log_reg_eqn.png)
 Make a LogisticRegression object <br>
 Fit the data to the model <br>
 Get the parameters for plotting the data, W_0, W_1 and W_2 <br>
