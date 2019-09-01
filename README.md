@@ -86,7 +86,7 @@ See [NTUOSS-PandasBasics](https://github.com/wilsonteng97/NTUOSS-PandasBasics) f
 > The sigmoid value of X, which is computed by the f_pred function, is the value of y predicted by the model. 
 ![alt text](https://github.com/ShirleyHan6/NTUOSS-DataOdyssey/blob/master/images/code/supervised/log_reg1.png)
 <!-- blank line -->
-## Logistic regression/classification predictive function 
+## Logistic regression/classification predictive function
 ![alt text](https://github.com/ShirleyHan6/NTUOSS-DataOdyssey/blob/master/images/code/supervised/log_reg_eqn.png)
 <!-- blank line -->
 > Make a LogisticRegression object <br>
