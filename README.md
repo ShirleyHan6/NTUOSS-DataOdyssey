@@ -83,15 +83,16 @@ See [NTUOSS-PandasBasics](https://github.com/wilsonteng97/NTUOSS-PandasBasics) f
 <!-- blank line -->
 ---
 ### Coding with sklearn <a name="coding1"></a>
-> The sigmoid value of X, which is computed by the f_pred function, is the value of y predicted by the model. 
+> **Sigmoid** function adds non-linearity into the model <br>
+**z** is the input to the sigmoid function, which is the dot product of input **X** and the weight **w** 
 ![alt text](https://github.com/ShirleyHan6/NTUOSS-DataOdyssey/blob/master/images/code/supervised/log_reg1.png)
 <!-- blank line -->
 Logistic regression predictive function
 ![alt text](https://github.com/ShirleyHan6/NTUOSS-DataOdyssey/blob/master/images/code/supervised/log_reg_eqn.png)
 <!-- blank line -->
-> Make a LogisticRegression object <br>
-> Fit the data to the model <br>
-> Get the parameters for plotting the data, W_0, W_1 and W_2 <br>
+To conduct logistic regression with scikit-learn, we first create a **LogisticRegression** object<br>
+Then we **fit** the model to the **data**<br>
+The **intercept** and **coef** are the model parameters(weights)
 ![alt text](https://github.com/ShirleyHan6/NTUOSS-DataOdyssey/blob/master/images/code/supervised/log_reg2.png)
 <!-- blank line -->
 ---
@@ -123,7 +124,8 @@ Read the image
 <!-- blank line -->
 ---
 ### Coding with sklearn <a name="coding2"></a>
-> Reshape the image to be 2-dimension, then run the KMeans algorithm with the number of clusters equal to 20. 
+> Reshape the image to be 2-dimension<br>
+>To run the KMeans algorithm, we first create a scikit-learn KMeans object with the number of clusters assigned to 20, which is the number of colors we want for the compressed image.
 >Fit the model to the data, then use the centroids to compress the image
 ![alt text](https://github.com/ShirleyHan6/NTUOSS-DataOdyssey/blob/master/images/code/unsupervised/k_means_cluster.png)
 <!-- blank line -->
