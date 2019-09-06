@@ -42,6 +42,7 @@ We will use [scikit-learn](https://scikit-learn.org/stable/index.html), a python
 
 ### Google Colabtory
 See [NTUOSS-PandasBasics](https://github.com/wilsonteng97/NTUOSS-PandasBasics) for a comprehensive introduction on how to use Google Colabtory for data science projects and let's walk through it. <br>
+[Notebook](https://colab.research.google.com/drive/114hqdZq7EtMqYCNuMhwcb6xyLOZ6S1Dt)
 Go to [this link](https://drive.google.com/drive/folders/1udniYJu3xmxuNFud8FDn0yyESkXOAzCF?usp=sharing) to download the data to be used in this workshop and upload it to Google Colabtory. <br>
 
 ### Odyssey Begins
