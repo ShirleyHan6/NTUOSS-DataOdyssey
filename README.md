@@ -114,8 +114,6 @@ Students whose score points are above the decision boundary will be admitted whi
 ---
 <!-- blank line -->
 ## Unsupervided Odyssey: Unsupervised Classification <a name="unsupervised"></a>
-> Install Pillow, which is used with matplotlib to read images in jpep format
-![alt text](https://github.com/ShirleyHan6/NTUOSS-DataOdyssey/blob/master/images/code/unsupervised/install_libs2.png)
 <!-- blank line -->
 > Import the image reading module from matplotlib and the K-Means module from sklearn
 ![alt text](https://github.com/ShirleyHan6/NTUOSS-DataOdyssey/blob/master/images/code/unsupervised/import_libs2.png)
