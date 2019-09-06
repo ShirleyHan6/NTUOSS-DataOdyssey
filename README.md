@@ -23,17 +23,26 @@ For errors, typos or suggestions, please do not hesitate to [post an issue](http
 
 ---
 ### Introduction
-
-Data science is highly regarded as one of the most important skills to learn. But what is data science even about, and how do you utilize it? For the next three weeks, NTU Open Source Society will be hosting 3 workshops designed to introduce the concept from a novice level to how companies use data science in the real world.<br>
 ![alt text](https://github.com/ShirleyHan6/NTUOSS-DataOdyssey/blob/master/images/scikit_learn.png)
+<strong>Machine Learning</strong> is an interdisciplinary subject where computer science and statistics intersect. <br>
+In the workshop today, we will focus on the practical aspect of machine learning, i.e.,coding. 
+In most cases, we give our algorithm an input and it gives us an output.  
+However, for a machine learning algorithm, we first feed a lot of data to the algorithm to let the algorithm determine itself how it should react to the data. This is the process of determining the parameters of the machine learning <strong>model</strong>. 
+<hr>
+In <strong>supervised</strong> machine learning, we feed the input and <strong>label</strong>, into the model and it will learn how to predict the output when we feed new inputs. Think about supervised learning as learning with a teacher who tells you the right answers. 
+
+In <strong>unsupervised</strong> machine learning, we only feed the input and the model will learn to predict the output solely based on the input. Think about unsupervised learning as learning without a teacher. Not all real-world data have a label, thus the necessity of unsupervised learning.
+
 The second workshop will introduce two machine learning algorithms in order to demonstrate how the field can be used in real-world scenarios. <br>
 This includes logistic regression, a supervised method to solve classification problems, as well as k-means clustering, an unsupervised method to group together clusters of data by certain criteria.<br>
+ 
 We will use [scikit-learn](https://scikit-learn.org/stable/index.html), a python package built for implement machine learning algorithms. <br>
 [Logistic Regression with scikit-learn](https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LogisticRegression.html)<br>
 [K-Means with scikit-learn](https://scikit-learn.org/stable/modules/generated/sklearn.cluster.KMeans.html)<br>
 
 ### Google Colabtory
 See [NTUOSS-PandasBasics](https://github.com/wilsonteng97/NTUOSS-PandasBasics) for a comprehensive introduction on how to use Google Colabtory for data science projects and let's walk through it. <br>
+Go to [this link](https://drive.google.com/drive/folders/1udniYJu3xmxuNFud8FDn0yyESkXOAzCF?usp=sharing) to download the data to be used in this workshop and upload it to Google Colabtory. <br>
 
 ### Odyssey Begins
 ![title](images/ml_types.jpg)
@@ -55,10 +64,6 @@ See [NTUOSS-PandasBasics](https://github.com/wilsonteng97/NTUOSS-PandasBasics) f
 ##  Supervised Odyssey: Supervised Classification <a name="supervised"></a>
 ###  Packing up: Environment Setup <a name="prep"></a>
 
-> Install machine learning and visualization packages
-<!-- blank line -->
-![alt text](https://github.com/ShirleyHan6/NTUOSS-DataOdyssey/blob/master/images/code/environment_setup/install_package.png)
-<!-- blank line -->
 > Import the module for linear regression algorithm from sklearn and plotting packages
 <!-- blank line -->
 ![alt text](https://github.com/ShirleyHan6/NTUOSS-DataOdyssey/blob/master/images/code/environment_setup/import_libs.png)
@@ -78,6 +83,8 @@ See [NTUOSS-PandasBasics](https://github.com/wilsonteng97/NTUOSS-PandasBasics) f
 <!-- blank line -->
 ---
 ## Data Classification: Logistic Regression <a name="logreg"></a>
+Logistic Regression is used when the dependent variable(target) is categorical, i.e., we want to find <strong>class</strong> which each of the variables belongs to. 
+For example, to classify spam emails, we find whether an email belongs to the spam class or the normal class. 
 ### Algorithm Intuition ([online demo](https://www.desmos.com/calculator/naf1qogfjn))<a name="intuition1"></a>
 ![alt text](https://github.com/ShirleyHan6/NTUOSS-DataOdyssey/blob/master/images/logreg.png)
 <!-- blank line -->
@@ -99,7 +106,7 @@ The **intercept** and **coef** are the model parameters(weights)
 ## Result Visualization <a name="viz1"></a>
 > After obtaining the parameters, lets visualize the result by plotting the decision boundary. <br>
 Students whose score points are above the decision boundary will be admitted while the students below the decision boundary will be rejected
-![alt text](https://github.com/ShirleyHan6/NTUOSS-DataOdyssey/blob/master/images/code/supervised/viz1.png)
+![alt text](https://github.com/ShirleyHan6/NTUOSS-DataOdyssey/blob/master/images/code/viz/viz1.png)
 <!-- blank line -->
 > Now let's use our trained logistic regression model to predict if a student will be accepted or rejected.
 ![alt text](https://github.com/ShirleyHan6/NTUOSS-DataOdyssey/blob/master/images/code/supervised/predict1.png)
@@ -116,11 +123,18 @@ Students whose score points are above the decision boundary will be admitted whi
 ## Data Exploration <a name="explore2"></a>
 Read the image
 ![alt text](https://github.com/ShirleyHan6/NTUOSS-DataOdyssey/blob/master/images/code/unsupervised/read_reshape_img.png)
+A 2D image is comprised of two dimensional RGB values. <br>
+700 is the row number.<br>
+1000 is the column number.<br>
+3 is the R, G, B value respectively. <br>
 <!-- blank line -->
 ---
 ## Image Compression: K-Means <a name="k_means"></a>
 ### Algorithm Intuition ([Online Demo](http://alekseynp.com/viz/k-means.html))<a name="intuition2"></a>
 ![alt text](https://github.com/ShirleyHan6/NTUOSS-DataOdyssey/blob/master/images/k_means.png)
+K-means is one of the most popular unsupervised clustering algorithms. <br>
+"K" in K-means refers to k number of clusters. <br>
+"Means" refers to finding the means, or centroids of the clusters. <br>
 <!-- blank line -->
 ---
 ### Coding with sklearn <a name="coding2"></a>
@@ -137,6 +151,11 @@ Read the image
 <!-- blank line -->
 ---
 ## End of Odyssey!<a name="end"></a>
+## End of Journey <a name="end"></a>
+Congratualations on completing the Machine Learing Odyssey!<br>
+In this workshop we have learned how to use machine learning algorithms to solve some simple real-world problems. <br>
+In the next, which is also the last workshop of the NTUOSS Data Science workshop series, we will teach you **deep learning**, which is a subfield of machine learning and is even more interesting!<br>
+An approchable book if you want to learn more: [A Course in Machine Learning](http://ciml.info/)
 <!-- blank line -->
 ![alt text](https://github.com/ShirleyHan6/NTUOSS-DataOdyssey/blob/master/images/ai_ml_dl.png)
 
