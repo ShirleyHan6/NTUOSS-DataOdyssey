@@ -158,8 +158,9 @@ Congratualations on completing the Machine Learing Odyssey!<br>
 In this workshop we have learned how to use machine learning algorithms to solve some simple real-world problems. <br>
 In the next, which is also the last workshop of the NTUOSS Data Science workshop series, we will teach you **deep learning**, which is a subfield of machine learning and is even more interesting!<br>
 <hr>
-An approchable book if you want to learn more: [A Course in Machine Learning](http://ciml.info/)
-<!-- blank line -->
+
+An approchable book if you want to learn more [A Course in Machine Learning](http://ciml.info/)
+<br>
 ![alt text](https://github.com/ShirleyHan6/NTUOSS-DataOdyssey/blob/master/images/ai_ml_dl.png)
 
 
