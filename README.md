@@ -161,6 +161,7 @@ In the next, which is also the last workshop of the NTUOSS Data Science workshop
 
 An approchable book if you want to learn more [A Course in Machine Learning](http://ciml.info/)
 <br>
+<br>
 ![alt text](https://github.com/ShirleyHan6/NTUOSS-DataOdyssey/blob/master/images/ai_ml_dl.png)
 
 
